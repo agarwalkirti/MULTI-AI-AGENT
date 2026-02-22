@@ -20,9 +20,9 @@ COPY . .
 ## Run setup.py
 RUN pip install --no-cache-dir -e .
 
-# Used PORTS
-EXPOSE 8501
+# Used PORTS (expose port of streamlit and FastAPI)
+EXPOSE 8501 
 EXPOSE 9999
 
 # Run the app 
-CMD ["python", "app/main.py"]
+CMD ["python","-m", "app.main"]
