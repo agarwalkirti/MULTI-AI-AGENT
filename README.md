@@ -1,4 +1,6 @@
-# LLMOPS-1
+# Multi-Agent AI system
+Built a production-ready multi-agent AI system using FastAPI, LangGraph, Groq LLM, and Tavily Search, enabling tool-augmented reasoning with real-time web retrieval. The system follows the ReAct pattern to reduce hallucinations and support intelligent, context-aware responses. Implemented a Streamlit-based UI, structured message conversion layer, and health-monitored backend architecture. Containerized the application with Docker and integrated CI/CD via Jenkins for automated builds and deployment.
+
 pip install -e .
 
 ## WSL Installation
